@@ -6,7 +6,7 @@ import config
 weather = GetWeather()
 df = weather.weather()
 doc = Html()
-send = Send(mail=config.email, password=config.psw, smtp_server='smtp.gmail.com')
+send = Send(mail=config.email, password=config.psw, smtp_server='smtp.server.com')
 
 today = df.iloc[0]
 content = doc.body(df,
