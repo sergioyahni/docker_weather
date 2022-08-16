@@ -1,2 +1,2 @@
-psw = "tveumgbczwsjomok"
-email = "maagarmeda2020@gmail.com"
+psw = "YOUR PASSWORD"
+email = "YOUR EMAIL"
