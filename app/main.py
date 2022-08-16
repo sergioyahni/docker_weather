@@ -14,6 +14,6 @@ content = doc.body(df,
                max=today['temperature_max'],
                sunrise=today['sunrise'],
                sunset=today['sunset'])
-send.send_email(to=['sergioy@tourism.gov.il', 'sergioyahni@gmail.com', 'sergioyahni2@gmail.com'],
+send.send_email(to=['user1@email.com', 'user2@email.com', 'user3@email.com'],
                 subject="Your Weather Report",
                 rich_body=content)
