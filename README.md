@@ -2,7 +2,7 @@
 docker_weather is a dockerized application that returns the minimum and maximum temperatures, the sunrise and sunset hours, and a 5-day forecast for a location defined by its latitude and longitude. 
 The application sends an email to a selected list of recipients.
 
-## Configurations
+## Configuration
 Email and password: docker_weather/app/config.py
 
 Define email, password, and SMTP server: docker_weather/app/main.py
